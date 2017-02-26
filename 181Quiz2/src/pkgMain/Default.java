@@ -1,5 +1,7 @@
 package pkgMain;
 
+// Marc Bolinas
+
 import java.util.Scanner;
 
 public class Default {
@@ -20,8 +22,14 @@ public class Default {
 			tuition = Math.pow(tuition, (1 + rate));
 		}
 		
+		
+		// Gotta round numbers to 2 decimal places
+		// I mean, it works
 		cost = Math.round(cost * 100);
 		cost = cost / 100;
+		
+		
+		
 		System.out.println("Total tuition cost: $" + cost);
 		
 	}
